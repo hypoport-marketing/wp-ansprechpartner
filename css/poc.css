@@ -1,0 +1,28 @@
+.poc .hp_poc_row {
+  display: none;
+}
+.poc .hp_poc_row.visible {
+  display: block;
+}
+.poc .select2-selection--single {
+  background-color: #84bd00 !important;
+  border-color: #dedede !important;
+  height: 46px !important;
+}
+.poc .select2-selection--single .select2-selection__rendered {
+  color: #fff !important;
+  line-height: 40px !important;
+  font-size: 18px !important;
+  padding-left: 20px !important;
+  font-weight: 600;
+}
+.poc .select2-selection--single .select2-selection__arrow b {
+  border-color: #fff transparent transparent transparent !important;
+  border-width: 10px 6px 0 6px !important;
+  margin-left: -20px !important;
+  margin-top: 4px !important;
+}
+.poc .select2-results__option--highlighted[aria-selected] {
+  background-color: #84bd00 !important;
+  color: #fff !important;
+}
